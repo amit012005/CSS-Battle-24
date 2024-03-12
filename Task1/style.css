@@ -1,0 +1,114 @@
+*{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 670px; 
+    /* border: 2px solid black;  */
+} 
+  .inner {
+    height: 80%;
+    width: 85%;
+    padding: 20px;
+    background-color: navy;
+    border-radius: 15px;
+  }
+  .navbar{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+  }
+  .navbar a{
+    font-weight: bolder;
+  }
+  .box{
+    display: flex;
+
+  }
+  .box1{
+    width: 60%;
+    height: 100%;
+    
+  }
+  .box2{
+    width: 40%;
+    height: 100%;
+    
+  }
+  .details{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .input-box{
+    display: flex;
+  }
+  .contact {
+    padding: 40px;
+    
+}
+
+.input-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    flex: 1;
+    position: relative;
+}
+
+.input-field input,
+.textarea-field textarea {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+.input-field input::placeholder,
+.textarea-field textarea::placeholder {
+    color: white;
+}
+
+
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(219, 25, 219);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.input-field input,
+.textarea-field textarea {
+    width: 85%;
+    
+    border: none;
+    outline: none;
+    background-color: rgba(89, 29, 148, 0.5); 
+    border-bottom: 1px solid #ccc;
+}
+
+.input-field input:focus,
+.textarea-field textarea:focus {
+    border-bottom: 1px solid #007bff;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+.img{
+    margin-left: 20px;
+}
